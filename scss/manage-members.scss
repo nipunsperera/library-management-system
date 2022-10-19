@@ -1,0 +1,49 @@
+#header{
+    h3{
+        font-size: 3rem;
+    }
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: skyblue;
+
+    ion-icon{
+        font-size: 3rem;
+        position: absolute;
+        left: 0;
+        transition: color 250ms;
+
+        &:hover{
+            color: black;
+        }
+
+        a{
+            display: block;
+            width: fit-content;
+            height: fit-content;
+            background-color: red;
+            text-decoration: none;
+        }
+        
+        }
+}
+
+#btn-new{
+    font-weight: bold;
+    font-size: 1rem;
+
+    ion-icon{
+        font-size: 1.5rem;
+        vertical-align: middle;
+        margin: 5px;
+    
+    }
+
+}
+
+#record-nav{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
